@@ -1,4 +1,4 @@
-MRuby::Gem::Specification.new('mruby-yaml') do |spec|
+MRuby::Gem::Specification.new('pins-mruby-yaml') do |spec|
 	spec.license = 'MIT'
 	spec.authors = 'Andrew Belt'
 	spec.version = '0.1.0'
