@@ -389,7 +389,7 @@ int value_to_node(mrb_state *mrb,
 
 
 void
-mrb_mruby_yaml_gem_init(mrb_state *mrb)
+mrb_pins_mruby_yaml_gem_init(mrb_state *mrb)
 {
   struct RClass *klass = mrb_define_module(mrb, "YAML");
   mrb_define_class_method(mrb, klass, "load", mrb_yaml_load, MRB_ARGS_REQ(1));
@@ -406,6 +406,6 @@ mrb_mruby_yaml_gem_init(mrb_state *mrb)
 
 
 void
-mrb_mruby_yaml_gem_final(mrb_state *mrb)
+mrb_pins_mruby_yaml_gem_final(mrb_state *mrb)
 {
 }
